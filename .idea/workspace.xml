@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33839170-a341-4edb-adc3-1a592563e7cd" name="Changes" comment="add Function class and myConnection and DataColumns">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JPAFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JPAFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JPAFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/MyTableNameEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/MyTableNameEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <workItem from="1675097581549" duration="599000" />
       <workItem from="1675230872465" duration="7000" />
       <workItem from="1675425247876" duration="47000" />
-      <workItem from="1675853900723" duration="1632000" />
+      <workItem from="1675853900723" duration="7622000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1674677025467</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674677374885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Function class and myConnection and DataColumns">
+      <created>1675856803712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675856803712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +123,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="list.get(i).getFirstName()" language="JAVA" />
+        <watch expression="list" />
       </configuration>
     </watches-manager>
   </component>

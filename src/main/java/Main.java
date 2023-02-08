@@ -11,10 +11,13 @@ public class Main {
         EntityManager entityManager=entityManagerFactory.createEntityManager();
         EntityTransaction transaction=entityManager.getTransaction();
         try {
-            transaction.begin();
-            MyTableNameEntity user = new MyTableNameEntity();
-            user.setFirstName("Nehoraii1234567890");
-            JPAFunction.Update(user,"zoisuefhgi");
+            JPAFunction.Insert("1234567890987654321");
+            JPAFunction.Update("1234567890","1234");
+
+//            MyTableNameEntity person=entityManager.find(MyTableNameEntity.class,user.getId());
+//            person.setId(user.getId());
+//            person.setFirstName("QWERTYU123");
+//            entityManager.merge(person);
 
 
 //            TypedQuery<MyTableNameEntity> myTableName = entityManager.createNamedQuery("my_table_name", MyTableNameEntity.class);
@@ -33,7 +36,6 @@ public class Main {
 //            for(MyTableNameEntity e :list.getResultList()){
 //                System.out.println(e);
 //            }
-            transaction.commit();
 
 
         }
