@@ -4,6 +4,10 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "my_table_name", schema = "public", catalog = "Try")
+@NamedQuery(name="select",query ="SELECT e FROM MyTableNameEntity e")
+@NamedQuery(name="select withe Condition",query = "SELECT e FROM MyTableNameEntity e WHERE e.firstName=?1")
+
+
 public class MyTableNameEntity {
     private String firstName;
     private int id;
@@ -40,6 +44,14 @@ public class MyTableNameEntity {
         if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
 
         return true;
+    }
+
+    @Override
+    public String toString() {
+        return "MyTableNameEntity{" +
+                "firstName='" + firstName + '\'' +
+                ", id=" + id +
+                '}';
     }
 
     @Override
