@@ -16,9 +16,10 @@ public class JPAFunction {
         entityManager.persist(user);
 
     }
-    public static void Update(MyTableNameEntity user,String Name){
+    public static void Update(MyTableNameEntity user){
         MyTableNameEntity person=entityManager.find(MyTableNameEntity.class,user.getId());
-        person.setFirstName(Name);
+        person.setId(user.getId());
+        person.setFirstName(user.getFirstName());
         entityManager.merge(person);
     }
 

@@ -14,7 +14,8 @@ public class Main {
             transaction.begin();
             MyTableNameEntity user = new MyTableNameEntity();
             user.setFirstName("Nehoraii1234567890");
-            JPAFunction.Update(user,"zoisuefhgi");
+            user.setId();
+            JPAFunction.Update(user);
 
 
 //            TypedQuery<MyTableNameEntity> myTableName = entityManager.createNamedQuery("my_table_name", MyTableNameEntity.class);
