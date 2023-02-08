@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33839170-a341-4edb-adc3-1a592563e7cd" name="Changes" comment="add Function class and myConnection and DataColumns">
+    <list default="true" id="33839170-a341-4edb-adc3-1a592563e7cd" name="Changes" comment="add Update and insert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JPAFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JPAFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -78,7 +78,7 @@
       <workItem from="1675097581549" duration="599000" />
       <workItem from="1675230872465" duration="7000" />
       <workItem from="1675425247876" duration="47000" />
-      <workItem from="1675853900723" duration="7622000" />
+      <workItem from="1675853900723" duration="8804000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1674677025467</created>
@@ -108,16 +108,36 @@
       <option name="project" value="LOCAL" />
       <updated>1675856803712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add UPdate and insert">
+      <created>1675862965840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675862965840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="add Function class and myConnection and DataColumns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Function class and myConnection and DataColumns" />
+    <MESSAGE value="add UPdate and insert" />
+    <MESSAGE value="add Update and insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Update and insert" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
