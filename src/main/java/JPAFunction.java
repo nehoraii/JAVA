@@ -44,11 +44,11 @@ public class JPAFunction {
 
     }
     public static List<MyTableNameEntity> Select(){
-        UpConnection();
-        TypedQuery<MyTableNameEntity> query=entityManager.createQuery("SELECT e FROM MyTableNameEntity e", MyTableNameEntity.class);
-        List<MyTableNameEntity> listResult=query.getResultList();
-        DownConnection();
-        return listResult;
+            UpConnection();
+            TypedQuery<MyTableNameEntity> query=entityManager.createQuery("SELECT e FROM MyTableNameEntity e", MyTableNameEntity.class);
+            List<MyTableNameEntity> listResult=query.getResultList();
+            DownConnection();
+            return listResult;
     }
 
 }
