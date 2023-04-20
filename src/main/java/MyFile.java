@@ -76,5 +76,17 @@ public class MyFile {
         }
 
     }
+    public void addToFileString(String str){
+        PrintWriter printWriter= null;
+        String list="";
+        list=getText();
+        try {
+            printWriter = new PrintWriter(getFile());
+            printWriter.append(list + str);
+            printWriter.close();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 
 }

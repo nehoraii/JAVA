@@ -49,15 +49,8 @@ public class Main {
 
         //TryEmail.sendMail("nehoraii555@gmail.com");
         MyFile myFile=new MyFile("C:\\Users\\user\\Desktop\\t.txt");
-        //myFile.getDate();
-       //myFile.cleanText();
+        myFile.addToFileString("qwerty");
 
-        //myFile.printToFile("Nehoraii babaii 0556652485");
-        //System.out.println(myFile.getText());
-        //System.out.println(myFile.hashCode());
-        //myFile.replaceChar('i','t');
-        //System.out.println(myFile.getText());
-        System.out.println(myFile.hashCode());
 
 
     }
